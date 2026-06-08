@@ -93,7 +93,7 @@ const Index = () => {
               Need Help With Recruitment?
             </h3>
             <a 
-              href="https://start.thepreferredrecruit.com/home-page317375" 
+              href="https://app.thepreferredrecruit.com/quiz/?utm_source=website&utm_medium=standards&utm_campaign=standardsPR" 
               target="_blank" 
               rel="noopener noreferrer"
               className="relative z-10 inline-block"
