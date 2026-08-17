@@ -58,16 +58,16 @@ const Index = () => {
   return (
     <div className="min-h-screen gradient-bg pb-28">
       <Helmet>
-        <title>Track Targets — College Track & Field Recruiting Standards</title>
-        <meta name="description" content="Match your personal bests to college track and field recruiting standards. Compare PRs against target, recruit, and walk-on standards from hundreds of NCAA programs." />
-        <link rel="canonical" href="https://preferred-recruit-track-standards.lovable.app/" />
+        <title>Preferred Recruit Track Standards</title>
+        <meta name="description" content="Find your preferred college track and field recruiting standards. Compare your PRs against track and field standards from colleges nationwide." />
+        <link rel="canonical" href="https://trackandfieldstandards.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://preferred-recruit-track-standards.lovable.app/" />
-        <meta property="og:title" content="Track Targets — College Track & Field Recruiting Standards" />
-        <meta property="og:description" content="Match your personal bests to college track and field recruiting standards across NCAA D1, D2, and D3 programs." />
+        <meta property="og:url" content="https://trackandfieldstandards.com/" />
+        <meta property="og:title" content="Preferred Recruit Track Standards" />
+        <meta property="og:description" content="Find your preferred college track and field recruiting standards. Compare your PRs against track and field standards from colleges nationwide." />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Track Targets — College Track & Field Recruiting Standards" />
-        <meta name="twitter:description" content="Match your personal bests to college track and field recruiting standards across NCAA D1, D2, and D3 programs." />
+        <meta name="twitter:title" content="Preferred Recruit Track Standards" />
+        <meta name="twitter:description" content="Find your preferred college track and field recruiting standards. Compare your PRs against track and field standards from colleges nationwide." />
       </Helmet>
       <Header onReset={handleReset} />
       
