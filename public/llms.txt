@@ -1,15 +1,14 @@
-# Track Targets
+# Preferred Recruit Track Standards
 
-> College track and field recruiting standards. Compare your personal bests against target, recruit, and walk-on standards for hundreds of college programs across all NCAA divisions.
+> Find your preferred college track and field recruiting standards. Compare your personal bests against target, recruit, and walk-on standards from colleges nationwide.
 
-Track Targets helps high school track and field athletes streamline their college recruitment by matching their performances to the standards of college programs that fit them best. Search by event and mark to discover schools where you would be a target recruit, recruit, or walk-on.
+Preferred Recruit Track Standards helps high school track and field athletes streamline their college recruitment by matching their performances to the standards of college programs that fit them best. Search by event and mark to discover schools where you would be a target recruit, recruit, or walk-on.
 
 ## Pages
 
 - [Home](/): Search college track and field programs by event and personal best.
 - [School Directory](/schools): Browse standards for college track and field programs.
 
-## Optional
+## Domain
 
-- [Custom Domain](https://track-targets.com): Primary site.
-- [Alternate Domain](https://trackandfieldstandards.com): Mirror site.
+- [Primary Site](https://trackandfieldstandards.com): Official domain.
