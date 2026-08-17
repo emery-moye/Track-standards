@@ -1,8 +1,8 @@
-Track Targets was made for High School athletes to easily connect their personal best and match with what colleges fit them best to streamline their recruitment process
+# Preferred Recruit Track Standards
 
-No longer Track Targets as it has been bought
+Preferred Recruit Track Standards helps high school athletes match their personal bests against college track and field recruiting standards to streamline their recruitment process.
 
-https://track-targets.com/ 
+https://trackandfieldstandards.com/
 
 ## What technologies are used for this project?
 
