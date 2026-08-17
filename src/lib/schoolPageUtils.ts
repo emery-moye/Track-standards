@@ -37,12 +37,12 @@ export function findSchoolBySlug(slug: string): SchoolStandards | undefined {
  * Generate SEO-optimized meta description for a school
  */
 export function generateSchoolMetaDescription(school: SchoolStandards): string {
-  return `Official ${school.schoolName} track and field recruiting standards. Get target, recruit, and walk-on times for all events including sprints, distance, hurdles, jumps, and throws. ${school.division} ${school.conference} standards for men and women.`;
+  return `${school.schoolName} track and field recruiting standards: target, recruit, and walk-on marks for men and women (${school.division}, ${school.conference}).`;
 }
 
 /**
  * Generate page title for a school
  */
 export function generateSchoolPageTitle(school: SchoolStandards): string {
-  return `${school.schoolName} Track & Field Standards | Track and Field Standards`;
+  return `${school.schoolName} Track & Field Recruiting Standards`;
 }
