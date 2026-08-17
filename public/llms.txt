@@ -7,7 +7,8 @@ Preferred Recruit Track Standards helps high school track and field athletes str
 ## Pages
 
 - [Home](/): Search college track and field programs by event and personal best.
-- [School Directory](/schools): Browse standards for college track and field programs.
+- [School Pages](/schools/): Each college program has its own standards page, e.g. https://trackandfieldstandards.com/schools/samford-university-track-standards
+- [Sitemap](https://trackandfieldstandards.com/sitemap.xml): Full list of school standards pages.
 
 ## Domain
 
