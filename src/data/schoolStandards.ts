@@ -19836,7 +19836,7 @@ export const schoolStandards: SchoolStandards[] = [
   };
 
   schoolStandards.forEach((s) => {
-    if (s.conference !== "ACC") return;
+    if (s.conference !== "ACC" || s.hasOfficialStandards) return;
     const applyGroup = (group?: Record<string, EventStandards>) => {
       if (!group) return;
       ["100m", "200m"].forEach((e) => {
