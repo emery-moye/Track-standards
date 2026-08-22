@@ -11,7 +11,7 @@ const colleges = [
   { name: "Texas", logo: "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png" },
   { name: "Oregon", logo: "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png" },
   { name: "Army", logo: "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png" },
-  { name: "Duquesne", logo: "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png" },
+  { name: "Rutgers", logo: "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png" },
   { name: "UConn", logo: "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png" },
   { name: "Cal Poly SLO", logo: "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png" },
   { name: "Texas Tech", logo: "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png" },
