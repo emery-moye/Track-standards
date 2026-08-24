@@ -29178,10 +29178,23 @@ const wccSchools: SchoolStandards[] = [
     division: "D1",
     conference: "SWAC",
     state: "TX",
+    hasOfficialStandards: true,
     maleStandards: {
-      "1600m": { target: "4:22.00", recruit: "4:31.00", walkon: "4:39.00" },
-      "3200m": { target: "9:15.00", recruit: "9:33.00", walkon: "9:43.00" },
-      "5K XC": { target: "15:55.00", recruit: "16:18.00", walkon: "16:33.00" }
+      "100m": { target: "10.40", recruit: "10.55", walkon: "10.70" },
+      "200m": { target: "21.20", recruit: "21.45", walkon: "21.70" },
+      "400m": { target: "47.50", recruit: "48.00", walkon: "48.50" },
+      "800m": { target: "1:53.00", recruit: "1:55.00", walkon: "1:57.00" },
+      "1600m": { target: "4:20.00", recruit: "4:25.00", walkon: "4:30.00" },
+      "3000m": { target: "8:40.00", recruit: "9:02.50", walkon: "9:25.00" },
+      "3200m": { target: "9:20.00", recruit: "9:55.00", walkon: "10:30.00" },
+      "5K XC": { target: "15:30.00", recruit: "15:50.00", walkon: "16:10.00" },
+      "110m Hurdles": { target: "13.90", recruit: "14.15", walkon: "14.40" },
+      "400m Hurdles": { target: "52.00", recruit: "53.50", walkon: "55.00" },
+      "High Jump": { target: "6'8\"", recruit: "6'7\"", walkon: "6'6\"" },
+      "Long Jump": { target: "24'0\"", recruit: "23'6\"", walkon: "23'0\"" },
+      "Triple Jump": { target: "48'0\"", recruit: "47'6\"", walkon: "47'0\"" },
+      "Shot Put": { target: "55'0\"", recruit: "53'6\"", walkon: "52'0\"" },
+      "Discus": { target: "165'0\"", recruit: "152'6\"", walkon: "140'0\"" }
     },
     femaleStandards: {
       "1600m": { target: "5:18.00", recruit: "5:28.00", walkon: "5:39.00" },
