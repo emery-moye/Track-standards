@@ -18466,6 +18466,29 @@ export const schoolStandards: SchoolStandards[] = [
     }
   },
   {
+    id: "ssc_eckerd",
+    schoolName: "Eckerd College",
+    division: "D2",
+    conference: "Sunshine State Conference",
+    state: "FL",
+    maleStandards: {
+      "400m": { target: "48.60", recruit: "49.80", walkon: "51.40" },
+      "800m": { target: "1:54.00", recruit: "1:56.00", walkon: "1:58.00" },
+      "1500m": { target: "4:04.00", recruit: "4:12.00", walkon: "4:15.00" },
+      "1600m": { target: "4:26.33", recruit: "4:33.57", walkon: "4:38.06" },
+      "3200m": { target: "9:25.40", recruit: "9:35.00", walkon: "9:44.60" },
+      "5000m": { target: "15:35.00", recruit: "15:50.00", walkon: "16:05.00" }
+    },
+    femaleStandards: {
+      "400m": { target: "59.20", recruit: "60.75", walkon: "62.00" },
+      "800m": { target: "2:19.5", recruit: "2:22.8", walkon: "2:25.0" },
+      "1500m": { target: "4:46.8", recruit: "4:57.5", walkon: "5:02.5" },
+      "1600m": { target: "5:26.72", recruit: "5:34.36", walkon: "5:41.05" },
+      "3200m": { target: "11:03.5", recruit: "11:17.3", walkon: "11:31.2" },
+      "5000m": { target: "18:00.0", recruit: "18:25.0", walkon: "18:45.0" }
+    }
+  },
+  {
     id: "ssc_florida_tech",
     schoolName: "Florida Institute of Technology",
     division: "D2",
