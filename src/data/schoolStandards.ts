@@ -35367,6 +35367,56 @@ const stateMap: Record<string, { fullName: string; aliases: string[] }> = {
   });
 })();
 
+// UCCS official scholarship standards (target = full scholarship, recruit = HS scholarship min, walkon = roster spot min)
+(() => {
+  const uccs = schoolStandards.find((s) => s.id === "rmac_uc_colorado_springs");
+  if (!uccs) return;
+
+  uccs.hasOfficialStandards = true;
+
+  uccs.maleStandards = {
+    "100m": { target: "10.15", recruit: "10.49", walkon: "10.79" },
+    "200m": { target: "20.50", recruit: "21.30", walkon: "21.90" },
+    "400m": { target: "46.40", recruit: "47.90", walkon: "48.90" },
+    "800m": { target: "1:50.00", recruit: "1:55.00", walkon: "1:57.00" },
+    "1600m": { target: "4:09.00", recruit: "4:20.00", walkon: "4:30.00" },
+    "3200m": { target: "9:00.00", recruit: "9:40.00", walkon: "9:50.00" },
+    "110m Hurdles": { target: "13.70", recruit: "14.20", walkon: "14.89" },
+    "300m Hurdles": { target: "36.90", recruit: "37.90", walkon: "38.90" },
+    "400m Hurdles": { target: "50.50", recruit: "52.50", walkon: "54.00" },
+    "High Jump": { target: "7'1\"", recruit: "6'8\"", walkon: "6'5\"" },
+    "Pole Vault": { target: "17'9\"", recruit: "16'0\"", walkon: "15'0\"" },
+    "Long Jump": { target: "24'9\"", recruit: "23'9\"", walkon: "23'0\"" },
+    "Triple Jump": { target: "50'9\"", recruit: "48'0\"", walkon: "46'0\"" },
+    "Shot Put": { target: "60'0\"", recruit: "55'0\"", walkon: "51'0\"" },
+    "Discus": { target: "180'0\"", recruit: "170'0\"", walkon: "150'0\"" },
+    "Hammer": { target: "225'0\"", recruit: "190'0\"", walkon: "180'0\"" },
+    "Javelin": { target: "230'0\"", recruit: "N/A", walkon: "170'0\"" },
+    "Decathlon": { target: "7400", recruit: "6800", walkon: "6500" },
+  };
+
+  uccs.femaleStandards = {
+    "100m": { target: "11.35", recruit: "11.89", walkon: "12.30" },
+    "200m": { target: "23.30", recruit: "24.70", walkon: "25.10" },
+    "400m": { target: "53.10", recruit: "56.90", walkon: "58.00" },
+    "800m": { target: "2:06.00", recruit: "2:13.00", walkon: "2:17.00" },
+    "1600m": { target: "4:40.00", recruit: "4:55.00", walkon: "5:15.00" },
+    "3200m": { target: "10:00.00", recruit: "10:55.00", walkon: "11:20.00" },
+    "100m Hurdles": { target: "13.70", recruit: "14.25", walkon: "14.89" },
+    "300m Hurdles": { target: "41.90", recruit: "43.00", walkon: "44.00" },
+    "400m Hurdles": { target: "1:00.00", recruit: "1:02.00", walkon: "1:03.00" },
+    "High Jump": { target: "5'9\"", recruit: "5'6\"", walkon: "5'5\"" },
+    "Pole Vault": { target: "13'9\"", recruit: "12'6\"", walkon: "11'6\"" },
+    "Long Jump": { target: "20'6\"", recruit: "18'9\"", walkon: "18'0\"" },
+    "Triple Jump": { target: "41'0\"", recruit: "38'0\"", walkon: "37'0\"" },
+    "Shot Put": { target: "50'0\"", recruit: "43'6\"", walkon: "41'0\"" },
+    "Discus": { target: "160'0\"", recruit: "140'0\"", walkon: "135'0\"" },
+    "Hammer": { target: "195'0\"", recruit: "170'0\"", walkon: "155'0\"" },
+    "Javelin": { target: "164'0\"", recruit: "N/A", walkon: "125'0\"" },
+    "Heptathlon": { target: "5500", recruit: "4500", walkon: "4200" },
+  };
+})();
+
 export const searchSchools = (query: string): SchoolStandards[] => {
   if (!query.trim()) return [];
   
