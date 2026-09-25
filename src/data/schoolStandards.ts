@@ -9102,6 +9102,7 @@ export const schoolStandards: SchoolStandards[] = [
       "Pentathlon": { target: "4,200", recruit: "4,000", walkon: "3,750" },
       "Heptathlon": { target: "5,800", recruit: "5,500", walkon: "5,000" }
     }
+  },
   {
     id: "705",
     schoolName: "Cornell University",
