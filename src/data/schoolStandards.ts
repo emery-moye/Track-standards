@@ -8699,7 +8699,7 @@ export const schoolStandards: SchoolStandards[] = [
       "1600m": { target: "4:20.00", recruit: "4:24.00", walkon: "4:29.00" },
       "3200m": { target: "9:24.00", recruit: "9:30.00", walkon: "9:50.00" },
       "110m Hurdles": { target: "14.50", recruit: "14.60", walkon: "14.90" },
-      "300m Hurdles": { target: "53.50", recruit: "54.00", walkon: "55.00" },
+      "300m Hurdles": { target: "38.39", recruit: "38.89", walkon: "39.89" },
       "400m Hurdles": { target: "53.50", recruit: "54.00", walkon: "55.00" },
       "High Jump": { target: "6'10\"", recruit: "6'8\"", walkon: "6'5\"" },
       "Pole Vault": { target: "16'6\"", recruit: "16'0\"", walkon: "15'0\"" },
@@ -8707,7 +8707,7 @@ export const schoolStandards: SchoolStandards[] = [
       "Triple Jump": { target: "49'0\"", recruit: "48'0\"", walkon: "46'0\"" },
       "Javelin": { target: "185'0\"", recruit: "180'0\"", walkon: "160'0\"" },
       "Decathlon": { target: "6500", recruit: "6300", walkon: "5500" },
-      "3000m": { target: "14:45.00", recruit: "14:55.00", walkon: "15:15.00" },
+      "3000m": { target: "8:45.00", recruit: "8:50.00", walkon: "9:10.00" },
       "5000m": { target: "15:15.00", recruit: "15:25.00", walkon: "15:50.00" }
     },
     femaleStandards: {
@@ -8718,7 +8718,7 @@ export const schoolStandards: SchoolStandards[] = [
       "1600m": { target: "5:06.00", recruit: "5:10.00", walkon: "5:20.00" },
       "3200m": { target: "10:52.00", recruit: "11:00.00", walkon: "11:25.00" },
       "100m Hurdles": { target: "14.40", recruit: "14.50", walkon: "15.00" },
-      "300m Hurdles": { target: "61.00", recruit: "62.00", walkon: "65.00" },
+      "300m Hurdles": { target: "43.31", recruit: "44.31", walkon: "47.31" },
       "400m Hurdles": { target: "61.00", recruit: "62.00", walkon: "65.00" },
       "High Jump": { target: "5'8\"", recruit: "5'6\"", walkon: "5'4\"" },
       "Pole Vault": { target: "13'6\"", recruit: "13'0\"", walkon: "12'0\"" },
@@ -8728,7 +8728,7 @@ export const schoolStandards: SchoolStandards[] = [
       "Discus": { target: "155'0\"", recruit: "150'0\"", walkon: "130'0\"" },
       "Hammer": { target: "165'0\"", recruit: "160'0\"", walkon: "140'0\"" },
       "Heptathlon": { target: "4600", recruit: "4400", walkon: "3800" },
-      "3000m": { target: "17:50.00", recruit: "18:00.00", walkon: "18:50.00" },
+      "3000m": { target: "10:05.00", recruit: "10:15.00", walkon: "10:40.00" },
       "5000m": { target: "18:30.00", recruit: "18:40.00", walkon: "19:30.00" }
     }
   },
@@ -27839,7 +27839,7 @@ const scacSchools: SchoolStandards[] = [
       "5000m": { target: "16:40.00", recruit: "17:15.00", walkon: "18:20.00" },
       "10000m": { target: "34:30.00", recruit: "36:00.00", walkon: "37:00.00" },
       "3k Steeple": { target: "10:25.00", recruit: "10:55.00", walkon: "11:20.00" },
-      "100m Hurdles": { target: "13.48", recruit: "15.00", walkon: "14.60" },
+      "100m Hurdles": { target: "13.48", recruit: "14.60", walkon: "15.00" },
       "300m Hurdles": { target: "42.00", recruit: "45.28", walkon: "46.52" },
       "400m Hurdles": { target: "59.00", recruit: "63.83", walkon: "65.50" },
       "High Jump": { target: "5'10\"", recruit: "5'8\"", walkon: "5'6\"" },
