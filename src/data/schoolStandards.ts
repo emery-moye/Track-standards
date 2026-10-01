@@ -29442,7 +29442,7 @@ const wccSchools: SchoolStandards[] = [
       "400m": { target: "45.95", recruit: "47.10", walkon: "48.50" },
       "800m": { target: "1:53.00", recruit: "1:54.50", walkon: "1:56.00" },
       "1500m": { target: "3:55.00", recruit: "4:00.00", walkon: "4:15.00" },
-      "3000m": { target: "8:25.00", recruit: "8:20.00", walkon: "8:45.00" },
+      "3000m": { target: "8:15.00", recruit: "8:20.00", walkon: "8:45.00" },
       "110m Hurdles": { target: "13.55", recruit: "13.85", walkon: "14.00" },
       "400m Hurdles": { target: "49.90", recruit: "51.30", walkon: "52.00" },
       "High Jump": { target: "7'3\"", recruit: "7'1.75\"", walkon: "6'8.75\"" },
