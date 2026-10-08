@@ -71,7 +71,7 @@ const SchoolPage = () => {
         </script>
       </Helmet>
 
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background pb-28">
         {/* Header */}
         <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-10">
           <div className="container mx-auto px-4 py-4">
@@ -228,6 +228,23 @@ const SchoolPage = () => {
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 YouTube
+              </a>
+            </div>
+          </div>
+        </footer>
+
+        {/* Fixed bottom recruitment bar */}
+        <footer className="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-xl border-t border-border/30 py-5 px-6 z-20">
+          <div className="container mx-auto">
+            <div className="flex items-center justify-center">
+              <a
+                href="https://app.thepreferredrecruit.com/60seconds/?utm_source=website&utm_medium=standards&utm_campaign=standardsPR"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 text-white font-bold h-12 px-8 rounded-xl shadow-lg shadow-primary/25 transition-all">
+                  Are you fast enough? Find out here
+                </Button>
               </a>
             </div>
           </div>
